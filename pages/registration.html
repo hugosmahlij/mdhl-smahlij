@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link href="http://fonts.cdnfonts.com/css/dedecus" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/img/LogoMightyducks.ico"
+    />
+    <title>Mighty Ducks Hockey League - Registration</title>
+  </head>
+
+  <body>
+    <header class="header1">
+      <h1 class="title">Mighty Ducks Hockey League</h1>
+      <img class="logo" src="../assets/img/logoMDHL.png" alt="Logo MDHL" />
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./aboutmdhl.html">About MDHL</a>
+        <a href="./rules.html">Rules</a>
+        <a href="./game_info.html">Game Info</a>
+        <a href="#" class="select_button_contact">Registration</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <figure class="image_left">
+        <img src="../assets/img/hockey1.jpg" alt="hockey1" />
+        <img src="../assets/img/hockey2.jpg" alt="hockey2" />
+      </figure>
+      <section>
+        <h2 class="title-contact">Registration Form</h2>
+        <form action="../show_data.html" method="get">
+          <fieldset class="field">
+            <label class="field-name">
+              Player's First Name:
+              <input type="text" name="player-name" />
+            </label>
+            <label class="field-name">
+              Last Name
+              <input type="text" name="player-surname" />
+            </label>
+          </fieldset>
+          <fieldset class="field">
+            <label>
+              Street Address:
+              <input type="text" name="street" />
+            </label>
+          </fieldset>
+          <fieldset class="field">
+            <label>
+              City:
+              <input type="text" name="city" />
+            </label>
+            <label>
+              Zip Code:
+              <input type="text" name="zip-code" />
+            </label>
+          </fieldset>
+          <fieldset class="field">
+            <label>
+              Birth Date(mm/dd/yyyy):
+              <input type="text" name="birth-date" />
+            </label>
+            <label>
+              Gender: Female
+              <input type="radio" name="gender" value="Female" />
+            </label>
+            <label>
+              Male
+              <input type="radio" name="gender" value="Male" />
+            </label>
+          </fieldset>
+          <fieldset class="field">
+            <span>Grade:</span>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="pre-school" />
+              Pre-School
+            </label>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="1st" />
+              <sup>1st</sup>
+            </label>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="2nd" />
+              <sup>2nd</sup> 
+            </label>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="3rd" />
+              <sup>3rd</sup> 
+            </label>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="4th" />
+              <sup>4th</sup> 
+            </label>
+            <label class="field-grade">
+              <input type="radio" name="grade" value="5th" />
+              <sup>5th</sup> 
+            </label>
+          </fieldset>
+          <fieldset >
+            <h4>Wich Elementary school do you live near?</h4>
+            <label class="field-school">
+              Closest School:
+              <select class="field-school">
+                <option value="">Choose an option</option>
+                <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South Elementary">South Elementary</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset class="field-position">
+            <h4 class="field-position">What position(s) do you normally play? (check all that applay)</h4>
+            <label class="field-position">
+              <input type="checkbox" name="position" value="forward" />
+            Forward
+            </label>
+            <label class="field-position">
+              <input type="checkbox" name="position" value="defense" />
+            Defense
+            </label>
+            <label class="field-position">
+              <input type="checkbox" name="position" value="midfield" />
+            Midfield
+            </label>
+            <label class="field-position">
+              <input type="checkbox" name="position" value="goalkeeper" />
+            Goalkeeper
+            </label>
+          </fieldset>
+          <fieldset class="field-uniform">
+          <label class="field-uniform">Uniform size:</label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="youth-small" />
+            Youth Small
+            </label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="youth-medium" />
+            Youth Medium
+            </label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="small" />
+            Small
+            </label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="medium" />
+            Medium
+            </label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="large" />
+            Large
+            </label>
+            <label class="field-uniform">
+              <input type="radio" name="uniform-size" value="extra-large" />
+            Extra-Large
+            </label>
+          </fieldset>
+          <fieldset class="field_permission">
+            <h4>Permission to Play</h4>
+            <p class="text-permission">
+              I, the parent or guardian od the minor registrant, agree that the
+              registrat and I will abide by all the rules of the Migthy Ducks
+              Hockey League (MDHL). In recognizing of physical injury associated
+              with hockey and in consideration for thr "League" acceptin the
+              registrant for its hockey programs and activities, I hereby
+              release, discharge, and/or otherwise indemnify MDHL, their
+              employees and associated personnel and volunteers, including the
+              facilities used for registrant's participation in the program
+              and/or being transported to or from MDHL sponsored activities,
+              wich transportation. By entering your name below, I hereby agree and
+              authorize the above. In addition, by signing below, also
+              ackonwledge that I have read the cancellation policy and agree to
+              its terms.
+            </p>
+            <fieldset class="field">
+              <label>Parent/Guardian Signature:
+              <input type="text" name="parent-guardian-signature" />
+            </label>
+            </fieldset>
+            <fieldset class="field">
+              <label>
+                Date
+              <input type="text" name="date" />
+              </label>
+            </fieldset>
+          </fieldset>
+          <label class="field-submit">
+            <input class="submit" type="submit" value="Submit" />
+          </label>
+        </form>
+      </section>
+      <figure class="image_right">
+        <img src="../assets/img/hockey3.jpg" alt="hockey3" />
+        <img src="../assets/img/hockeyimage1.jpg" alt="hockeyimage1" />
+      </figure>
+    </main>
+    <footer>
+      <p>Hugo Smahlij - Cohort 36 - Argentina - MindHub</p>
+    </footer>
+  </body>
+</html>
